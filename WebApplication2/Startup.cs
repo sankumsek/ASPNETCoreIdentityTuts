@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ASPNETCoreIdentity.Data;
 using Microsoft.EntityFrameworkCore;
+using ASPNETCoreIdentity.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication2
 {
@@ -26,6 +28,9 @@ namespace WebApplication2
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +45,8 @@ namespace WebApplication2
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseAuthentication();
 
             app.UseStaticFiles();
 
