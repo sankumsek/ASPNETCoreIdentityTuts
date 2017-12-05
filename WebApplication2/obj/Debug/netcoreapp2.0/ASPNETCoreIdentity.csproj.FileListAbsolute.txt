@@ -1,0 +1,10 @@
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\ASPNETCoreIdentity.deps.json
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\ASPNETCoreIdentity.runtimeconfig.json
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\ASPNETCoreIdentity.runtimeconfig.dev.json
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\ASPNETCoreIdentity.dll
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\bin\Debug\netcoreapp2.0\ASPNETCoreIdentity.pdb
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\ASPNETCoreIdentity.csproj.CoreCompileInputs.cache
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\ASPNETCoreIdentity.AssemblyInfoInputs.cache
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\ASPNETCoreIdentity.AssemblyInfo.cs
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\ASPNETCoreIdentity.dll
+C:\Users\sanjeev.sekar\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\ASPNETCoreIdentity.pdb

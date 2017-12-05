@@ -46,9 +46,9 @@ namespace WebApplication2
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseAuthentication();
-
             app.UseStaticFiles();
+
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
